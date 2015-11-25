@@ -1,26 +1,37 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<link rel='stylesheet' href='style.css'/>
-	<script src='script.js'></script>
-</head>
-<body>
-<div class="title">
-SteamRabbit
-</div>
-<div class="note">
-Welcome to (or possibly, back to) our website, which has one of the silliest names on earth. At least it looks nice, and has a good ol' fashioned mouseover (redirect, header title), so we're good for now. Anyway, we're wondering - is this bar of 'endless detail' even necessary? According to our brains, no. But it still exists, and we probably won't remove it. Here's who 'we' are;
-<p>-----</p>
-Me (ComicSketchAnonymous),
-<p> </p>
-Crisco,
-<p> </p>
-Suma-White-Lion,
-<p> <p>
-PixelThousand,
-<p> </p>
-And finally, my (very helpful) parents, who are editors - LovelyLemon and Actdorky
-<p>-----</p>
-They're the <strong> admins </strong> - clever people who help power this website. They're off for lunch now ¯\_(ツ)_/¯. 
-</div>
-</body>
+.title {
+    width: 275px;
+    font-family: courier;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    -moz-transition: all .25s;
+    -o-transition: all .25s;
+    -webkit-transition: all .25s;
+}
+.title:hover {
+     background-color: #ff8989;
+    -moz-transition: all .25s;
+    -o-transition: all .25s;
+    -webkit-transition: all .25s;
+}
+.title:hover:after { 
+    content: "neat";
+    background-color: #8989FF;
+    padding: 10px;
+    padding-top: 5px;
+    padding-right: 1030px;
+    padding-bottom: 5px
+}
+.note {
+    background: #faf2ce no-repeat 10px 10px;
+    border: 2px solid #edce42;
+    padding: 10px;
+    font-family: courier;
+}
+body {
+    background-color: #5FCFFF;
+    font-family: arial;
+    padding: 2.5px
+}
